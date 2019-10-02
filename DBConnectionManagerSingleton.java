@@ -1,5 +1,3 @@
-package SeniorProj;
-
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
@@ -12,7 +10,7 @@ public class DBConnectionManagerSingleton {
 	private static DBConnectionManagerSingleton dbConnectionManager = null;
 
 	private static final String user = "root";
-	private static final String pass = "cristorey7";
+	private static final String pass = "";
 	private static final String dbURL = "jdbc:mariadb://localhost:3306/fredS_SeniorProj";
 
 	private Connection conn;
